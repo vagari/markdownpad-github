@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
   body {
     font-family: Helvetica, arial, freesans, clean, sans-serif;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -38,14 +38,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   =============================================================================*/
   
   p, blockquote, ul, ol, dl, table, pre {
-    margin: 15px 0;
+    margin: 25px 0;
   }
   
   /* HEADERS
   =============================================================================*/
   
   h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0 10px;
+    margin: 25px 0 15px;
     padding: 0;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
@@ -56,31 +56,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   
   h1 {
-    font-size: 28px;
+    font-size: 32px;
     color: #000;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 28px;
     border-bottom: 1px solid #ccc;
     color: #000;
   }
   
   h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
   
   h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
   
   h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
   
   h6 {
     color: #777;
-    font-size: 14px;
+    font-size: 18px;
   }
   
   body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
@@ -94,7 +94,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   
   h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   /* LINKS
@@ -134,11 +134,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   
   dl dt {
-    font-size: 14px;
+    font-size: inherit;
     font-weight: bold;
     font-style: italic;
     padding: 0;
-    margin: 15px 0 5px;
+    margin: 25px 0 15px;
   }
   
   dl dt:first-child {
@@ -263,6 +263,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   
   table th, table td {
+    font-size: inherit;
     border: 1px solid #ccc;
     padding: 6px 13px;
   }
